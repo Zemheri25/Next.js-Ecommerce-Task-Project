@@ -11,7 +11,7 @@ const productDetailsPage = ({ details }) => {
     
   return (
     <Layout>
-    <div className="detailsmain">
+    <div className="detailsmain" key={details.id}>
       <div className="imagesdiv">
         <div className="imagediv" onClick={() => setChangeImage(true)}>
           <img src={details.images[0]} alt={details.name} className="image" />

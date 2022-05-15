@@ -26,7 +26,7 @@ export default function Home({products}) {
       <main className="main">
         {products.map((product) => {
           return (
-            <div className="productcard" onClick={() => viewProductDetails(product.id)}>
+            <div className="productcard" onClick={() => viewProductDetails(product.id)} key = {product.id}>
               <img src={product.images[0]} alt="" className="productimage1" />
               <div className="productfeatures">
                 <h5 className="productname">{product.name}</h5>

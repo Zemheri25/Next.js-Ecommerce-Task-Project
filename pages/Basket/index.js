@@ -1,8 +1,8 @@
-
+import Layout from "../../components/Layout";
 
 const Basket = () => {
   return (
-    <div>This is basket Page</div>
+    <Layout>This is basket Page</Layout>
   )
 }
 

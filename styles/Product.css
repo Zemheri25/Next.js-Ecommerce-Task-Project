@@ -85,3 +85,10 @@
 .salesDiv {
     display: flex;
 }
+
+@media (max-width : 844px) {
+    .productcard {
+        width: 10rem;
+        height: 20rem;
+    }
+}

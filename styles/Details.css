@@ -22,6 +22,7 @@
     margin-left: 2rem;
     border: 1px solid black;
     cursor: pointer;
+
 }
 
 .imagemain {
@@ -90,3 +91,28 @@
     padding: 2rem;
 }
 
+@media (max-width : 844px) {
+    .detailsmain {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .informationmain {
+        width: 100vw;
+        margin: 0rem auto;
+        
+    }
+
+    .imagemain img {
+        height: 40vh;
+        
+    }
+
+    .imagesdiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+}
