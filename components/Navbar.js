@@ -1,4 +1,5 @@
-import Link from "next/link"
+import Link from "next/link";
+import {MdShoppingCart} from "react-icons/md"
 
 const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ const Navbar = () => {
         </Link>
 
         <Link href = "/Basket" className = "Link">
-            <h3 className = "Link">Basket</h3>
+            <MdShoppingCart style={{color : "white", fontSize : "3rem", cursor : "pointer"}}/>
         </Link>
     </div>
   )

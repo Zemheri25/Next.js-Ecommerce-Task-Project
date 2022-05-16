@@ -4,10 +4,15 @@ import { useCallback } from "react";
 import Layout from "../components/Layout";
 // import MyProducts from "./MyProducts";
 import { useRouter } from "next/router";
-import {getAllProducts} from "../lib/productSotre"
+import {getAllProducts} from "../lib/productSotre";
+import {ProductContext} from "../context/ProductContext";
+import { useContext } from "react";
 
 export default function Home({products}) {
   const router = useRouter();
+
+  
+
 
   const viewProductDetails = useCallback((productId) => {
     router.push(`/product/${productId}`)
