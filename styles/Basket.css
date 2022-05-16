@@ -1,7 +1,7 @@
 .maincontent {
     display: flex;
     justify-content: space-around;
-
+    align-items: center;
 }
 
 .theleftside {
@@ -44,7 +44,8 @@
     box-shadow: 3px 3px 5px grey;
     padding: 2rem;
     gap: 2rem;
-    max-height: 60vh;
+    
+    height: 70vh;
 }
 
 .paymentbutton {
